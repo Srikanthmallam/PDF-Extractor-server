@@ -1,0 +1,19 @@
+# Dependency directories
+node_modules/
+
+# Runtime data
+.pnp/
+.pnp.js
+
+# Optional npm cache directory
+.npm
+
+# Optional eslint cache
+.eslintcache
+
+# OS-specific files
+.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
