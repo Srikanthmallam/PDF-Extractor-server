@@ -67,7 +67,7 @@ const uploadPdf = async (req, res, next) => {
     //if user loggedin then we saev the processed pdf
     if (authToken) {
       const token = authToken.split(" ")[1];
-      const decodedToken = jwt.verify(token, process.env.jWT_SECRET);
+      const decodedToken = jwt.verify(token, process.env.JWT_SECRET);
       const userId = decodedToken?.id;
 
       cloudinary.uploader.upload(
