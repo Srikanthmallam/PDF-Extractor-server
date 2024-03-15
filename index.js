@@ -21,7 +21,10 @@ app.use(express.json({extended:true}))
 app.use(express.urlencoded({extended:true}));
 
 app.use(
-  cors({ credentials: true, origin: "http://localhost:3000" })
+  cors({
+    credentials: true,
+    origin: "https://pdf-extractor-client.vercel.app",
+  })
 );
 
 
