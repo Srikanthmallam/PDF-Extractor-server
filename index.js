@@ -23,7 +23,7 @@ app.use(express.urlencoded({extended:true}));
 app.use(
   cors({
     credentials: true,
-    origin: "https://pdf-extractor-client.vercel.app",
+    origin: "https://pdf-extractor-client-three.vercel.app",
   })
 );
 
