@@ -4,7 +4,7 @@ PDF Extractor is a web application that allows users to upload PDF files, extrac
 
 checkout live website [https://pdf-extractor-client-three.vercel.app/]
 
-this is the backend repository checkout frontend repository-[https://github.com/Srikanthmallam/PDF-Extractor-server]
+this is the backend repository checkout frontend repository-[https://github.com/Srikanthmallam/PDF-Extractor-client]
 
 ## Table of Contents
 
